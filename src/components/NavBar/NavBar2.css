@@ -1,0 +1,50 @@
+/* src/components/NavBar/NavBar2.css */
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #284868;
+  padding: 10px 20px;
+  position: fixed; /* Fijar en la parte superior */
+  top: 3.5rem; /* Ajustar para que esté justo debajo de NavBar */
+  left: 0;
+  width: 100%; /* Ocupa todo el ancho */
+  z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+.navbar2-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar2-links li {
+  margin-right: 20px;
+}
+
+.navbar2-links a {
+  text-decoration: none;
+  color: #ffffff; /* Color blanco */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sell-button {
+  background-color: #f26a3d; /* Color naranja */
+  color: white;
+  border: none;
+  border-radius: 50rem; /* Bordes redondeados */
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sell-button:hover {
+  background-color: #d45a32; /* Color ligeramente más oscuro en hover */
+}

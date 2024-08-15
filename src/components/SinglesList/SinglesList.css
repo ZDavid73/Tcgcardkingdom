@@ -1,0 +1,32 @@
+.singles-list {
+    background: linear-gradient(180deg, #c6ddf2, rgba(198, 221, 242, 0));
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+  }
+  
+  .single-item {
+    flex: 1 0 16.6666%; 
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .single-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .single-details {
+    text-align: center;
+  }
+  
+  .single-price,
+  .single-name,
+  .single-expansion {
+    display: block;
+    margin: 5px 0;
+  }
+  

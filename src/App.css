@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.app {
+    padding-top: 1rem;
+  }
+
+.the-hero .image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  margin-top: 96px;
+  overflow: hidden;
+}
+
+.the-hero .image-wrapper .hero-image {
+  height: 100%;
+  left: 50%;
+  margin-top: -.6px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
