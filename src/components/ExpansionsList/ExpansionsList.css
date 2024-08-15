@@ -5,11 +5,13 @@
   background: linear-gradient(358.37deg, rgba(0, 0, 0, .5) .92%, transparent 58.34%), #294a6a;
   padding: 1rem;
   overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
 }
 
 .expansion-item {
   text-align: center;
   flex: 0 0 auto; 
+  scroll-snap-align: start;
 }
 
 .expansion-image {
@@ -33,4 +35,20 @@
   line-height: 1.25rem;
   text-transform: uppercase;
   margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 775px) {
+  .expansions-list {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+  }
+
+  .expansion-item {
+    flex: 0 0 50%; 
+    scroll-snap-align: start; 
+  }
+
+  .section-container {
+    overflow: hidden; 
+  }
 }

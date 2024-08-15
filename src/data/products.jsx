@@ -1,11 +1,11 @@
-export const singles = [
-  {
-    id: 1,
-    name: "Mabel's Mettle",
-    price: "$0.35",
-    expansion: "Bloomburrow",
-    image: "https://www.cardkingdom.com/images/magic-the-gathering/bloomburrow/mabels-mettle-20181-medium.jpg",
-  },
+  export const singles = [
+    {
+      id: 1,
+      name: "Mabel's Mettle",
+      price: "$0.35",
+      expansion: "Bloomburrow",
+      image: "https://www.cardkingdom.com/images/magic-the-gathering/bloomburrow/mabels-mettle-20181-medium.jpg",
+    },
   {
     id: 2,
     name: "Ygra, Eater of All",

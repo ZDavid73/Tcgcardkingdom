@@ -1,0 +1,93 @@
+.products-list {
+  background: url('https://images.contentstack.io/v3/assets/blt7f520a21793912be/blt38518ce5d70e6a95/65a5a8ca18123eb8d226ee36/commander-background.png?format=webply&quality=60&disable=upscale&width=1520') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.products-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.products-header h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.products-header p {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.learn-button {
+  background-color: #8fd7ff;
+  color: #002447;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px; 
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  padding: 0;
+  margin: 0;
+}
+
+.card-item {
+  flex: 0 0 16.6666%; 
+  box-sizing: border-box;
+  text-align: center;
+  scroll-snap-align: start;
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-details {
+  margin-top: 10px;
+}
+
+.card-price,
+.card-name,
+.card-expansion {
+  display: block;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 775px) {
+  .cards-container {
+    gap: 10px;
+  }
+
+  .card-item {
+    flex: 0 0 50%; 
+    padding: 5px;
+  }
+
+  .card-image {
+    max-width: 100%; 
+  }
+
+  .card-price,
+  .card-name,
+  .card-expansion {
+    font-size: 12px; 
+  }
+}

@@ -1,11 +1,11 @@
-import { NavBar, NavBar2, ExpansionsList, SinglesList } from './components/index';
+import { NavBar, NavBar2, ExpansionsList, SinglesList, ProductsList, ProductsList2, CardKingdomExclusives, CardKingdomExclusives2 } from './components/index';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <NavBar />
-      <NavBar2 />
+      <NavBar></NavBar>
+      <NavBar2></NavBar2>
       <div className="the-hero">
         <div className="image-wrapper">
           <img 
@@ -16,8 +16,12 @@ function App() {
         </div>
       </div>
       <main>
-        <ExpansionsList />
-        <SinglesList />
+<ExpansionsList></ExpansionsList>
+<SinglesList></SinglesList>
+<ProductsList2></ProductsList2>
+<CardKingdomExclusives></CardKingdomExclusives>
+<ProductsList></ProductsList>
+<CardKingdomExclusives2></CardKingdomExclusives2>
       </main>
     </div>
   );
